@@ -9,6 +9,9 @@
       <div>
         <button class="button is-primary" v-on:click="newGame">Start</button>
       </div>
+      <router-link to="/">
+        Home
+      </router-link>
     </div>
   </div>
 </template>

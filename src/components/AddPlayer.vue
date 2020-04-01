@@ -18,6 +18,9 @@
         <button class="button">Start a Game</button>
         </router-link>
       </div>
+      <router-link to="/">
+        Home
+      </router-link>
     </div>
   </div>
 </template>

@@ -4,11 +4,17 @@ import ElWaitingRoom from '../components/ElWaitingRoom'
 import AddPlayer from '../components/AddPlayer'
 import NewGame from '../components/NewGame'
 import GameRoom from '../components/GameRoom'
+import Home from '../components/Home'
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
+    {
+      path: '/',
+      name: 'Home',
+      component: Home
+    },
     {
       path: '/addplayer',
       name: 'AddPlayer',
